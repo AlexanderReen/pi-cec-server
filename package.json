@@ -1,0 +1,18 @@
+{
+  "name": "PiCECServer",
+  "version": "1.0.0",
+  "description": "An Express Node server that uses HDMI CEC",
+  "scripts": {
+    "server": "node app.js"
+  },
+  "author": "Alexander Reen <alexanderreen@hotmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "pubnub": "^4.3.3"
+  }
+}
